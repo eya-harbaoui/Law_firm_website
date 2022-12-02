@@ -1,0 +1,362 @@
+.addclientdem {
+  color: #0583f2;
+  width: 50px;
+  height: 50px;
+}
+
+.cascader1 {
+  width: 250px;
+}
+
+.cascader2 {
+  width: 472px !important;
+}
+
+.dosscontainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.input {
+  width: 52%;
+}
+
+.inputraison {
+  width: 250px;
+}
+
+.radioet {
+  border: solid 1px;
+  border-color: rgba(0, 128, 255, 0.66);
+  padding: 5px;
+}
+
+.boutonet {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 15rem;
+  margin-top: 4rem;
+}
+
+.boutonvalid {
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  width: 15rem !important;
+  margin-bottom: 7rem;
+  margin-top: 0.7rem;
+}
+
+.mission {
+  width: 52% !important;
+}
+
+.tablediv {
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.formaddtache {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+  width: 100%;
+  margin: auto;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+
+.reglementdiv1 {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  grid-gap: 45px;
+  grid-auto-rows: minmax(40px, auto);
+  margin-top: 80px;
+}
+
+.reglementdiv2 {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  grid-gap: 45px;
+  grid-auto-rows: minmax(70px, auto);
+}
+
+.reglementdiv3 {
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  grid-gap: 45px;
+  grid-auto-rows: minmax(70px, auto);
+}
+
+.reglementdiv4 {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  grid-gap: 45px;
+  grid-auto-rows: minmax(70px, auto);
+}
+
+.inputreg {
+  width: 20rem;
+}
+
+.divcollab1 {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  column-gap: 150px;
+  grid-auto-rows: minmax(70px, auto);
+}
+
+.divcollab2 {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  column-gap: 150px;
+  grid-auto-rows: minmax(70px, auto);
+  align-items: center;
+}
+
+.divcollab22 {
+  width: 100%;
+  border: black 1px solid;
+  padding: 6px;
+}
+
+.client1 {
+  margin-top: 20px;
+  display: grid;
+  align-items: center;
+  grid-gap: 50px;
+  grid-template-columns: repeat(2, 3fr);
+  grid-auto-rows: minmax(70px, auto);
+}
+
+.client2 {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 3fr);
+  grid-gap: 50px;
+  grid-auto-rows: minmax(70px, auto);
+}
+
+.client3 {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 3fr);
+  grid-gap: 50px;
+  grid-auto-rows: minmax(70px, auto);
+}
+
+.client4 {
+  display: grid;
+  align-items: center;
+
+  grid-template-columns: repeat(2, 3fr);
+  grid-gap: 50px;
+  grid-auto-rows: minmax(70px, auto);
+}
+
+.client5 {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  grid-auto-rows: minmax(70px, auto);
+}
+
+.sousdoss1 {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  column-gap: 150px;
+  grid-auto-rows: minmax(70px, auto);
+}
+
+.sousdoss2 {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  column-gap: 150px;
+  grid-auto-rows: minmax(70px, auto);
+  align-items: center;
+}
+
+.sousdoss3 {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  column-gap: 150px;
+  grid-auto-rows: minmax(70px, auto);
+}
+
+@media only screen and (max-width: 1100px) {
+  .reglementdiv1 {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(40px, auto);
+  }
+  .reglementdiv2 {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(40px, auto);
+  }
+  .reglementdiv3 {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(40px, auto);
+  }
+  .reglementdiv4 {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(40px, auto);
+  }
+  .divcollab1 {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-gap: 15px;
+    grid-auto-rows: minmax(70px, auto);
+  }
+  .divcollab2 {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-gap: 15px;
+    grid-auto-rows: minmax(70px, auto);
+    border: 1px rgba(0, 0, 0, 0) solid;
+    padding: 3%;
+  }
+  .client1 {
+    margin-top: 2%;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(1, 3fr);
+    grid-auto-rows: minmax(70px, auto);
+    margin-bottom: 5%;
+  }
+  .client2 {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(1, 3fr);
+    grid-auto-rows: minmax(70px, auto);
+  }
+  .client3 {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(1, 3fr);
+    grid-auto-rows: minmax(70px, auto);
+  }
+  .client4 {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(1, 3fr);
+    grid-auto-rows: minmax(70px, auto);
+  }
+  .client5 {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(1, 3fr);
+    grid-auto-rows: minmax(70px, auto);
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  .sousdoss1 {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-auto-rows: minmax(70px, auto);
+  }
+  .sousdoss2 {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-auto-rows: minmax(70px, auto);
+    align-items: center;
+  }
+  .sousdoss3 {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-auto-rows: minmax(70px, auto);
+  }
+}
+
+.boutonreg {
+  width: 20rem !important;
+}
+
+.containerreglement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.inputcoll {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+
+legend {
+  text-align: center;
+}
+
+.div {
+  width: 30rem;
+  display: flex;
+  flex-direction: column !important;
+}
+
+.dateinput {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 500px) {
+  .div {
+    width: 15rem;
+    flex-direction: column;
+  }
+}
+.btnaddcollabo {
+  width: 30px !important;
+  height: 30px !important;
+  background-color: #0583f2;
+  padding-right: 10px !important;
+  padding-bottom: 20px !important;
+  margin-bottom: 30px !important;
+}
+.buttonvalidate {
+  color: #0583f2;
+  background: rgb(255, 255, 255);
+  height: 2.45rem;
+  border: 2px solid #0583f2;
+  width: 15rem !important;
+  /*margin-bottom: 7rem;*/
+  margin-top: 0.7rem;
+
+  font-size: 1rem;
+  font-weight: bold;
+}
+.buttonvalidate:hover {
+  background: #0583f2 !important;
+  color: white !important;
+  border: 2px solid #0583f2 !important;
+}

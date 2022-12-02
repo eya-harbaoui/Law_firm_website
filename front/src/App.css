@@ -1,0 +1,307 @@
+body {
+    background-image: url("./lawback2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.edit {
+    color: #0583f2;
+    width: 25px;
+    height: 30px;
+}
+
+.dashbicons {
+    color: black;
+    width: 50px;
+    height: 50px;
+}
+
+.delete {
+    color: red;
+    width: 25px;
+    height: 30px;
+}
+
+.addtachediv {
+    color: #ffc107;
+    width: 25px;
+    height: 30px;
+}
+
+.edit:hover {
+    color: #0583f26b;
+}
+
+.delete:hover {
+    color: rgba(255, 0, 0, 0.296);
+}
+
+.addtachediv:hover {
+    color: #ffc10788;
+}
+
+.tableau {
+    margin-top: 100px;
+}
+
+.addicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.divedit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divdelete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin: 0 auto;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.btnadd {
+    /*margin-top: 100px;*/
+    /*margin-bottom: 40px;*/
+    color: rgb(255, 255, 255);
+    background-color: #0583f2;
+    width: 200px;
+    height: 38px;
+    border-radius: 10px;
+    border: 3px solid #0583f2;
+    font-size: 15px;
+    margin-top: 60px;
+}
+
+.btnadd:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.btndossier {
+    /*margin-top: 100px;*/
+    /*margin-bottom: 40px;*/
+    color: rgb(255, 255, 255);
+    background-color: #0583f2;
+    width: 200px;
+    height: 38px;
+    border: 3px solid #0583f2;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.btndossier:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.ant-table {
+    overflow-x: auto !important;
+    width: 1200px;
+    margin: auto !important;
+    margin-top: 45px !important;
+    background-color: rgba(255, 255, 255, 0.537) !important;
+}
+
+@media only screen and (max-width: 1500px) {
+    .ant-table {
+        overflow-x: auto !important;
+        width: 1200px !important;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .ant-table {
+        overflow-x: auto !important;
+        width: 1200px !important;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .ant-table {
+        overflow-x: auto !important;
+        width: 900px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .ant-table {
+        overflow-x: auto !important;
+        width: 900px !important;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .ant-table {
+        overflow-x: auto !important;
+        width: 700px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .ant-table {
+        overflow-x: auto !important;
+        width: 700px !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .ant-table {
+        overflow-x: auto !important;
+        width: 600px !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .ant-table {
+        overflow-x: auto !important;
+        width: 600px !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .ant-table {
+        overflow-x: auto !important;
+        width: 550px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .ant-table {
+        overflow-x: auto !important;
+        width: 400px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .ant-table {
+        overflow-x: auto !important;
+        width: 300px !important;
+    }
+}
+
+.ant-table td {
+    border: 0.5px solid #0583f275 !important;
+}
+
+.ant-table-thead>tr>th {
+    background: #0583f2 !important;
+    border: 0.5px solid #0000003a !important;
+    color: white !important;
+}
+
+.btnsearch {
+    color: white;
+    background-color: #0583f2;
+    width: 100px;
+    height: 30px;
+    border: 3px solid #0583f2;
+}
+
+.btnsearch:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.searchicon {
+    color: white;
+    width: 40px;
+    height: 25px;
+}
+
+.searchicon:hover {
+    background-color: #ffffffb7;
+    color: #0583f2;
+}
+
+.jours {
+    background-color: #6646e531;
+    border: 1.5px solid #0583f2;
+    padding: 7px;
+    margin-bottom: 20px;
+}
+
+.audcourse {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.divnavbar {
+    width: 500rem !important;
+}
+
+.Errorpagediv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white !important;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.Errorpagediv img {
+    width: 50%;
+}
+
+.constpagediv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.constpagediv img {
+    width: 60rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .constpagediv img {
+        padding-top: 20px;
+    }
+}

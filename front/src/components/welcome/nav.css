@@ -1,0 +1,417 @@
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-primary-2: hsl(205, 77%, 27%);
+  --clr-primary-3: hsl(205, 72%, 37%);
+  --clr-primary-4: hsl(205, 63%, 48%);
+  /* primary/main color */
+  --clr-primary-5: hsl(205, 78%, 60%);
+  /* lighter shades of primary color */
+  --clr-primary-6: hsl(205, 89%, 70%);
+  --clr-primary-7: hsl(205, 90%, 76%);
+  --clr-primary-8: hsl(205, 86%, 81%);
+  --clr-primary-9: hsl(205, 90%, 88%);
+  --clr-primary-10: hsl(205, 100%, 96%);
+  /* darkest grey - used for headings */
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-2: hsl(211, 39%, 23%);
+  --clr-grey-3: hsl(209, 34%, 30%);
+  --clr-grey-4: hsl(209, 28%, 39%);
+  /* grey used for paragraphs */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-green-dark: hsl(125, 67%, 44%);
+  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-black: #222;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}
+ul {
+  list-style-type: none;
+}
+ .divcontainerhome p{
+  font-size: 1.6rem;
+}
+.navhome {
+  background: #0583f2;
+  box-shadow: #000000f5;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+.nav-toggle {
+  font-size: 1.5rem;
+  color: white;
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: black;
+  transform: rotate(90deg);
+}
+.logo {
+  height: 40px;
+}
+.links a {
+  color: white;
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  display: block;
+  padding: 0.2rem 0.2rem;
+  transition: var(--transition);
+}
+.links a:hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.705);
+}
+.social-icons {
+  display: none;
+}
+.links-container {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+.show-container {
+  height: 8rem;
+}
+@media screen and (min-width: 800px) {
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .links-container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+  }
+  .links a {
+    padding: 0;
+    margin-left: 3rem;
+  }
+  .links a:hover {
+    color: black;
+    background-color: transparent !important;
+  }
+}
+
+.logonavbar {
+  color: rgb(255, 255, 255) !important;
+  width: 60px !important;
+  height: 50px !important;
+  margin-bottom: 1.2rem;
+}
+.divlogo {
+  display: inline-block;
+  padding: 0rem 0.5rem;
+  vertical-align: middle;
+  font-size: 1.4rem;
+}
+.imgbackground {
+  float: left;
+  width: 50%;
+}
+.hellotext {
+  float: right;
+  width: 50%;
+  margin-top: 20%;
+  font-size: 1.9rem;
+}
+.hellotext h1 {
+  color: #0583f2;
+  font-weight: bold;
+}
+@media screen and (max-width: 1100px) {
+  .hellotext {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hellotext {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hellotext {
+    font-size: 0.5rem;
+  }
+}
+
+.divcontainerhome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.divcards {
+  padding-left: 2%;
+  width: 90%;
+}
+
+.cardclass {
+  width: 100%;
+  height: 10rem;
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  border: #0583f2 solid 2px;
+}
+.logocard {
+  width: 60px;
+  height: 60px;
+}
+.titrecards h1 {
+  font-size: 1.7rem;
+  color: #ffc107;
+}
+
+.cardcontainer {
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
+.cardcontainer h1 {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.cardcontainer:hover h1 {
+  
+  color: #0583f2;
+}
+@media screen and (max-width: 1100px) {
+  .cardcontainer h1 {
+  font-size: 1rem;
+  color: black;
+}
+.logocard {
+  width: 60px;
+  height: 60px;
+}
+  
+}
+@media screen and (max-width: 700px) {
+  .cardcontainer h1 {
+  font-size: 0.7rem;
+  color: black;
+}
+.logocard {
+  width: 50px;
+  height: 50px;
+}
+  
+}
+@media screen and (max-width: 400px) {
+   .cardcontainer h1 {
+  font-size: 0.4rem;
+  color: black;
+}
+.logocard {
+  width: 30px;
+  height: 30px;
+}
+}
+
+
+.imgbackground3 {
+  float: right;
+  width: 40%;
+}
+.hellotext3 {
+  float: left;
+  width: 60%;
+  margin-top: 6%;
+  font-size: 1.7rem;
+}
+
+.imgbackground2 {
+  float: left;
+  width: 40%;
+}
+.hellotext2 {
+  float: right;
+  width: 60%;
+  margin-top: 8%;
+
+  font-size: 1.7rem;
+}
+.imgbackground1 {
+  float: right;
+  width: 40%;
+}
+.hellotext1 {
+  float: left;
+  width: 60%;
+  margin-top: 14%;
+  font-size: 1.7rem;
+}
+.divphotos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  width: 90%;
+  
+}
+.hellotext3 h1 {
+  color: #0583f2;
+  font-weight: bold;
+}
+.hellotext2 h1 {
+  color: #0583f2;
+  font-weight: bold;
+}
+.hellotext1 h1 {
+  color: #0583f2;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1100px) {
+  .hellotext1 {
+    font-size: 1.3rem;
+  }
+  .hellotext2 {
+    font-size: 1.3rem;
+  }
+  .hellotext3 {
+    font-size: 1.3rem;
+  }
+  .titrecards h1 {
+  font-size: 1.5rem;
+  color: #ffc107;
+}
+}
+@media screen and (max-width: 700px) {
+  .hellotext1 {
+    font-size: 1rem;
+  }
+  .hellotext2 {
+    font-size: 1rem;
+  }
+  .hellotext3 {
+    font-size: 1rem;
+  }
+  .imgbackground2 {
+    float: left;
+    width: 40%;
+    margin-top: 3%;
+  }
+  .titrecards h1 {
+  font-size: 1.3rem;
+  color: #ffc107;
+}
+}
+@media screen and (max-width: 400px) {
+  .hellotext1 {
+    font-size: 0.5rem;
+  }
+  .hellotext2 {
+    font-size: 0.5rem;
+  }
+  .hellotext3 {
+    font-size: 0.5rem;
+  }
+  .titrecards h1 {
+  font-size: 0.5rem;
+  color: #ffc107;
+}
+}
+.loginfromhome {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(120deg, #f25e5e, #f2b3b3);
+  width: 15rem;
+  height: 2.9rem;
+  border: 2px solid #f25e5e;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.loginfromhome:hover {
+  background: white;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+}
+ .divcontainerhome p{
+  font-size: 1.6rem;
+}
+@media screen and (max-width: 1100px) {
+  .loginfromhome {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(120deg, #f25e5e, #f2b3b3);
+  width: 10rem;
+  height: 2.4rem;
+  border: 2px solid #f25e5e;
+
+  font-size: 1rem;
+  font-weight: bold;
+}
+ .divcontainerhome p{
+  font-size: 1rem;
+}
+
+
+}
+@media screen and (max-width: 700px) {
+ .loginfromhome {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(120deg, #f25e5e, #f2b3b3);
+  width: 7rem;
+  height: 2rem;
+  border: 2px solid #f25e5e;
+
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+ .divcontainerhome p{
+  font-size: 0.7rem;
+}
+
+}
+@media screen and (max-width: 400px) {
+ .loginfromhome {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(120deg, #f25e5e, #f2b3b3);
+  width: 5rem;
+  height: 1rem;
+  border: 2px solid #f25e5e;
+
+  font-size: 0.44rem;
+  font-weight: bold;
+}
+.loginfromhome:hover {
+  background: white;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+}
+ .divcontainerhome p{
+  font-size: 0.5rem;
+}
+}

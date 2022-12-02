@@ -1,0 +1,41 @@
+
+
+.addingtrib{
+  color:#0583f2;
+  width: 20px;
+  height: 20px;
+  
+}
+.ajoutertrib{
+  display: flex;
+  flex-direction:row;
+  
+}
+.ajouter{
+  margin-left:20px;
+  margin-top: 30px;
+ 
+}
+.btnaddservice{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  background-color: #0583f2;
+  width: 200px;
+  height: 38px;
+  border-radius: 10px;
+  border: 3px solid #0583f2;
+  font-size: 15px;
+}
+.btnaddservice:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+.servicetrib {
+  color: rgb(0, 0, 0);
+  width: 25px;
+  height: 30px;
+}
+.servicetrib:hover {
+  color: rgba(0, 0, 0, 0.296);
+}
