@@ -1,1 +1,2 @@
-# stage_d-t-_2022_g1
+website for a law firm using PERN stack and deployed it on Heroku.
+Keywords: PostgreSQL, Express, ReactJS, NodeJS, Heroku
